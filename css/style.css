@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+h1
+navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.nav-link{
+    color: white;
+}
+
+/* Estilização do main */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-content img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .main-text {
+    text-align: justify;
+  }
+  
+  .main-text p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+ .content.reverse {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* banner-especialidades */
+  #areas {
+    position: relative;
+    z-index: 1;
+}
+
+#areas::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Ajuste a transparência (0.0 = total, 1.0 = opaco) */
+    z-index: -1;
+}
+
+/* seção do botão whatsapp */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #25D366; /* Cor verde do WhatsApp */
+    color: #FFFFFF; /* Cor do ícone */
+    width: 60px; /* Largura igual à altura */
+    height: 60px; /* Altura igual à largura */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Torna o botão redondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    font-size: 24px; /* Tamanho do ícone */
+    z-index: 999; /* Garante que o botão fique acima de outros elementos */
+    transition: background 0.3s; /* Transição suave */
+    text-decoration: none; /* Remove sublinhado do link */
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Cor mais escura ao passar o mouse */
+    text-decoration: none; /* Garante que não haja sublinhado */
+}
+
+
+footer a i {
+    padding: 5px;
+}
+
+
+
+ 
