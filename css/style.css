@@ -17,6 +17,7 @@ navbar {
     color: white;
 }
 
+
 /* Estilização do main */
 .main-content {
     display: flex;
@@ -72,7 +73,7 @@ navbar {
     position: fixed;
     bottom: 50px;
     right: 50px;
-    background-color: #25D366; /* Cor verde do WhatsApp */
+    background-color: green; /* Cor verde do WhatsApp */
     color: #FFFFFF; /* Cor do ícone */
     width: 60px; /* Largura igual à altura */
     height: 60px; /* Altura igual à largura */
@@ -87,9 +88,29 @@ navbar {
     text-decoration: none; /* Remove sublinhado do link */
 }
 
-.whatsapp-btn:hover {
-    background-color: #128C7E; /* Cor mais escura ao passar o mouse */
-    text-decoration: none; /* Garante que não haja sublinhado */
+
+
+
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+}
+
+.whatsapp-btn {
+  background-color: green; /* Cor inicial */
+  text-decoration: none; /* Garante que não haja sublinhado */
+  animation: shake 2.0s infinite; /* Adiciona a animação de tremor contínua */
 }
 
 
