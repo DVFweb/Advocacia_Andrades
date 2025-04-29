@@ -34,6 +34,7 @@ navbar {
       height: 40vh !important; /* Reduz ainda mais a altura no mobile */
       background-attachment: scroll !important; /* Remove o efeito de paralaxe no mobile */
       background-attachment: fixed;
+      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/Escritório\ \(2\).jpg') no-repeat center center/cover;
   }
 
   .hero-div {
@@ -55,6 +56,10 @@ navbar {
   .hero-section .btn {
       font-size: 0.9rem !important;
       padding: 0.5rem 1.2rem !important;
+  }
+
+  .fw-bold {
+      margin-top: 30px !important; /* Reduz o padding */
   }
 }
 
