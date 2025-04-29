@@ -29,9 +29,9 @@
             </div>
             </div>
         </nav>
-        <div class="hero-section" id="areas" style="background: url('img/header_banner.png') no-repeat center center/cover; height: 100vh; display: flex; align-items: center; justify-content: center; color: white; text-align: center;">
-            <div>
-            <img src="img/logo/letraAred.png" alt="Logo Advocacia Andrade" class="logo mb-4" style="width: 200px; height: auto;">
+        <div class="hero-section" id="areas" >
+            <div class="hero-div" style="margin-bottom: -300px;">
+            <img src="img/logo/letraAred.png" alt="Logo Advocacia Andrade" class="logo mb-6 img-fluid hero-logo" style="max-width: 100px; height: auto;">
             <h1 class="display-4 text-uppercase font-weight-bold" style="font-size: calc(1.5rem + 1vw);">Advocacia Andrade´s</h1>
             <p>Seu parceiro jurídico de confiança</p>
             <a href="#contato" class="btn btn-lg" style="background-color: #641520; color: white; transition: background-color 0.3s, transform 0.3s;" onmouseover="this.style.backgroundColor='#8a1e2b'; this.style.transform='scale(1.05)';" onmouseout="this.style.backgroundColor='#641520'; this.style.transform='scale(1)';"><strong>Entre em contato</strong></a>
@@ -40,14 +40,15 @@
     </header>
       <!-- main -->
     <main>
+        <!-- seção do sobre -->
         <section id="sobre">
-        <div class="container">
+         <div class="container">
             <div class="row main-content">
                 <div class="col-lg-5 col-md-6 text-center main-image">
-                    <img src="img/simboloADV.png" alt="Símbolo Advocacia Andrade">
+                    <img src="img/Escritório (1).jpg" alt="Símbolo Advocacia Andrade">
                 </div>
                 <div class="col-lg-7 col-md-6 main-text">
-                    <h2 class="text-secondary fw-bold">Nossa História</h2>
+                    <h2 class="text-secondary fw-bold"><strong>Nossa História</strong></h2>
                     <p>O escritório teve sua origem no ano de <strong>2012</strong>, estabelecendo sua sede no centro da cidade de <strong>São José dos Pinhais/PR</strong>,
                         permanecendo até a presente data no mesmo local.</p> <p> Desde sua fundação, destacou-se por sua forte atuação em <strong>Curitiba</strong>
                         e nas regiões metropolitanas, expandindo seus serviços para diversas cidades do Estado do <strong>Paraná</strong>, como <strong>Cascavel</strong>,
@@ -66,61 +67,44 @@
                     atendimento aos seus clientes em diversas regiões do Brasil.</p>
              </div>
              <div class="col-lg-5 col-md-6 text-center main-image">
-                <img src="img/mãosADV.jpg" alt="Martelo Advocacia Andrade">
+                <img src="img/Escritório (8).jpg" alt="Martelo Advocacia Andrade">
              </div>
             </div>
+         </div>
+       </section>
+    
+       <!-- banner-especialidades -->
+     <section id="areas" class="py-5 text-center text-white" style="background: url('img/marteloADV.jpg') no-repeat center center/cover;">
+        <div class="container">
+            <h2 id="especialidades" class="fw-bold text-uppercase mb-4" style="letter-spacing: 2px;">Nossas Especialidades</h2>
+            <p class="lead mb-5">Atuamos com excelência em diversas áreas do Direito, garantindo soluções jurídicas seguras e eficientes.</p>
+            
+            <!-- Carrossel -->
+            <div class="especialidades-carousel">
+                <div class="carousel-inner" id="carousel-inner">
+                    <!-- Os slides serão gerados via JavaScript -->
+                </div>
+                
+                <!-- Controles do Carrossel -->
+                <div class="carousel-indicators-discreto text-center mt-3" id="carousel-indicators">
+                    <!-- Os indicadores serão gerados via JavaScript -->
+                </div>
+            </div>
         </div>
-    </section>
-        <!-- banner-especialidades -->
-        <section id="areas" class="py-5 text-center text-white" style="background: url('img/marteloADV.jpg') no-repeat center center/cover;">
+     </section>
+       
+     <!-- banner fale com especialista -->
+        <section id="fale-com-especialista" class="py-5 text-center text-white" style="background: linear-gradient(to bottom, rgba(100, 21, 32, 0.8), rgba(138, 30, 43, 0.8), rgba(255, 255, 255, 0.8)), url('img/fale-com-especialista.jpg') no-repeat center center/cover;"></section>
             <div class="container">
-                <h2 id="especialidades" class="fw-bold text-uppercase mb-4" style="letter-spacing: 2px;">Nossas Especialidades</h2>
-                <p class="lead mb-5">Atuamos com excelência em diversas áreas do Direito, garantindo soluções jurídicas seguras e eficientes.</p>
-                <div class="row">
-                    <!-- Direito do Trabalho -->
-                    <div class="col-md-6 mb-4">
-                        <div class="p-4 border rounded bg-dark bg-opacity-75">
-                            <i class="fas fa-briefcase fa-2x mb-3" style="color: #641520;"></i>
-                            <h5 class="fw-bold">Direito do Trabalho</h5>
-                            <p>Vínculo de emprego, verbas rescisórias, FGTS, aviso prévio, insalubridade, acidente de trabalho, justa causa e mais.</p>
-                            <p>Compliance trabalhista, gestão de riscos, revisão de contratos, prevenção de passivos trabalhistas.</p>
-                        </div>
-                    </div>
-        
-                    <!-- Direito Criminal -->
-                    <div class="col-md-6 mb-4">
-                        <div class="p-4 border rounded bg-dark bg-opacity-75">
-                            <i class="fas fa-gavel fa-2x mb-3" style="color: #641520;" ></i>
-                            <h5 class="fw-bold">Direito Criminal</h5>
-                            <p>Defesa criminal, habeas corpus, crimes contra a vida, crimes patrimoniais, Tribunal do Júri, crimes de trânsito.</p>
-                            <p>Consultoria para empresas sobre compliance criminal, prevenção de riscos penais.</p>
-                        </div>
-                    </div>
-        
-                    <!-- Direito Previdenciário -->
-                    <div class="col-md-6 mb-4">
-                        <div class="p-4 border rounded bg-dark bg-opacity-75">
-                            <i class="fas fa-user-shield fa-2x mb-3" style="color: #641520;"></i>
-                            <h5 class="fw-bold">Direito Previdenciário</h5>
-                            <p>Aposentadorias, revisão de benefícios, planejamento previdenciário, auxílio-doença, pensão por morte.</p>
-                            <p>Recursos administrativos no INSS e judicialização de benefícios negados.</p>
-                        </div>
-                    </div>
-        
-                    <!-- Direito Civil -->
-                    <div class="col-md-6 mb-4">
-                        <div class="p-4 border rounded bg-dark bg-opacity-75">
-                            <i class="fas fa-balance-scale fa-2x mb-3" style="color: #641520;"></i>
-                            <h5 class="fw-bold">Direito Civil</h5>
-                            <p>Contratos, indenizações, direito do consumidor, inventários, divórcios, guarda e pensão alimentícia.</p>
-                            <p>Usucapião, regularização de imóveis, cobrança de dívidas e assessoria jurídica.</p>
-                        </div>
-                    </div>
+                <h2 class="fw-bold text-uppercase mb-4">Fale com um especialista</h2>
+                <p class="lead mb-5">Estamos prontos para ajudar você a encontrar a melhor solução jurídica.</p>
+                <a href="#contato" class="btn btn-lg" style="background-color: #641520; color: white; transition: background-color 0.3s, transform 0.3s;" onmouseover="this.style.backgroundColor='#8a1e2b'; this.style.transform='scale(1.05)';" onmouseout="this.style.backgroundColor='#641520'; this.style.transform='scale(1)';"><strong>Entre em contato</strong></a>
             </div>
         </section>
+       
         <!-- cards-advogados --> 
         <section id="equipe" class="py-5 text-center text-white" >
-            <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6);"></div>
+            <div class="overlay" ></div>
             <div class="container position-relative">
                 <h2 id="equipe" class="fw-bold text-secondary mb-4">Nossa Equipe</h2>
                 <div class="row justify-content-center">
@@ -128,7 +112,7 @@
                     <!-- Advogado Wilson -->
                     <div class="col-md-3 mb-4">
                         <div class="card" style="background-color: #641520; color: white;" class="border-0 shadow-lg">
-                            <img src="img/mãosADV.jpg" class="card-img-top rounded-circle p-3" alt="Dr. Wilson">
+                            <img src="img/equipe/Wilson (2).jpg" class="card-img-top p-3" alt="Dr. Wilson">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Dr. Wilson José da Costa Andrade</h5>
                                 <p class="card-text text-warning">Advogado Especialista em Direito do Trabalho</p>
@@ -139,7 +123,7 @@
                     <!-- Advogado Renan -->
                     <div class="col-md-3 mb-4">
                         <div class="card" style="background-color: #641520; color: white;" class="border-0 shadow-lg">
-                            <img src="img/marteloADV.jpg" class="card-img-top rounded-circle p-3" alt="Dr. Renan">
+                            <img src="img/equipe/Renan (5).jpg" class="card-img-top accordion p-3" alt="Dr. Renan">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Dr. Renan Henrique Gasparello de Andrade</h5>
                                 <p class="card-text text-warning">Advogado Especialista em Direito Criminal</p>
@@ -150,7 +134,7 @@
                     <!-- Advogada Jéssica -->
                     <div class="col-md-3 mb-4">
                         <div class="card" style="background-color: #641520; color: white;" class="border-0 shadow-lg">
-                            <img src="img/mãosADV.jpg" class="card-img-top rounded-circle p-3" alt="Dra. Jéssica">
+                            <img src="img/equipe/Jéssica (2).jpg" class="card-img-top accordion p-3" alt="Dra. Jéssica">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Dra. Jéssica Thawana de Oliveira Bueno</h5>
                                 <p class="card-text text-warning">Advogada Especialista em Direito Previdenciário</p>
@@ -158,28 +142,17 @@
                         </div>
                     </div>
         
-                    <!-- Assistente Jurídica Aline -->
-                    <div class="col-md-3 mb-4">
-                        <div class="card" style="background-color: #641520; color: white;" class="border-0 shadow-lg">
-                            <img src="img/marteloADV.jpg" class="card-img-top rounded-circle p-3" alt="Aline de Paula">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold">Dra. Aline de Paula da Silva</h5>
-                                <p class="card-text text-warning">Assistente Jurídica em Direito Jurídico</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-        
                 </div>
             </div>
         </section>
+          
         <!-- whatsapp-suspenso -->
         <a href="https://wa.me/5541998923102" target="_blank" class="whatsapp-btn">
             <i class="fab fa-whatsapp"></i>
         </a>
     </main>
     <!-- footer -->
-    <footer class="bg-dark text-white pt-4">
+    <footer class="text-white pt-4" style="background: linear-gradient(rgba(100, 21, 32, 0.8), rgba(138, 30, 43, 0.8), rgba(50, 10, 20, 0.8));">
         <div id="contato" class="container">
             <div class="row text-center text-md-start">
                 <!-- Endereço -->
@@ -208,7 +181,7 @@
                     <h5 class="fw-bold text-warning">Redes Sociais</h5>
                     <div class="d-flex justify-content-center">
                         <a href="https://www.facebook.com/contato.advocaciaandrade/" class="text-warning"><i class="fab fa-facebook fa-2x"></i></a>
-                        <a href="#" class="text-warning "><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="https://www.instagram.com/andrades_advocacia/" class="text-warning "><i class="fab fa-instagram fa-2x"></i></a>
                         <a href="https://wa.me/5541998923102" class="text-warning"><i class="fab fa-whatsapp fa-2x"></i></a>
                     </div>
                 </div>
