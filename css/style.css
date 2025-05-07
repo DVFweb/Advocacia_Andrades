@@ -18,7 +18,7 @@ navbar {
 }
 
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Escritório\ \(2\).jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/Escritório\ \(2op\).jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@ navbar {
       height: 40vh !important; /* Reduz ainda mais a altura no mobile */
       background-attachment: scroll !important; /* Remove o efeito de paralaxe no mobile */
       background-attachment: fixed;
-      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/Escritório\ \(2\).jpg') no-repeat center center/cover;
+      background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/Escritório\ \(2op\).jpg') no-repeat center center/cover;
   }
 
   .hero-div {
